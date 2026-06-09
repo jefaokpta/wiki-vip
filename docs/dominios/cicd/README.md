@@ -9,7 +9,7 @@ Domínio responsável por pipelines, runners e automação de deploy.
 
 ## Links globais
 
-- [CI/CD (global)](../../global/servicos-compartilhados/cicd.md)
+- [CI/CD (infraestrutura)](../../global/servicos-compartilhados/cicd.md)
 
 ## Responsável
 

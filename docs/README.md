@@ -31,11 +31,11 @@ Bem-vindo à wiki de infraestrutura da empresa. Este repositório centraliza doc
 
 ```mermaid
 flowchart LR
-    Home[Home] --> Global[Global]
+    Home[Home] --> Infra[Infraestrutura]
     Home --> Ambientes[Ambientes]
     Home --> Dominios[Domínios]
-    Global --> Redes[Redes e Segurança]
-    Global --> Servicos[Serviços Compartilhados]
+    Infra --> Redes[Redes e Segurança]
+    Infra --> Servicos[Serviços Compartilhados]
     Ambientes --> Prod[Produção]
     Ambientes --> Dev[Desenvolvimento]
     Dominios --> Integracoes[Integrações]

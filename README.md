@@ -66,7 +66,7 @@ Leia o [Guia de Contribuição](docs/CONTRIBUTING.md) para convenções de estru
 
 ## Hierarquia da documentação
 
-- **Global** — Redes, DNS, serviços compartilhados (transversal)
+- **Infraestrutura** — Redes, DNS, serviços compartilhados (transversal)
 - **Ambientes** — Índices Prod e Dev por camada (Web, App, Database)
 - **Domínios** — Ownership por time (Integrações, Monitoramento, CI/CD)
 

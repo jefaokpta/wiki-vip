@@ -9,7 +9,7 @@ Domínio responsável pela infraestrutura de monitoramento: **Zabbix**, alertas 
 
 ## Links globais
 
-- [Monitoramento / Zabbix (global)](../../global/servicos-compartilhados/monitoramento-zabbix.md)
+- [Monitoramento / Zabbix (infraestrutura)](../../global/servicos-compartilhados/monitoramento-zabbix.md)
 
 ## Responsável
 

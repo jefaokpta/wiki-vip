@@ -1,6 +1,6 @@
 * [Home](/docs/README.md)
 * [Como contribuir](/docs/CONTRIBUTING.md)
-* Global
+* Infraestrutura
   * [Redes e Segurança](/docs/global/redes-seguranca/README.md)
     * [VPCs](/docs/global/redes-seguranca/vpcs.md)
     * [Subnets](/docs/global/redes-seguranca/subnets.md)

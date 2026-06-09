@@ -58,6 +58,7 @@ wiki-vip/
 | mermaid | Diagramas em Markdown |
 | sidebar-collapse | Sidebar colapsável |
 | tabs | Abas para comparar conteúdo |
+| dark-switcher | Toggle claro/escuro no canto inferior direito (preferência salva em `localStorage`) |
 
 ## Contribuir
 

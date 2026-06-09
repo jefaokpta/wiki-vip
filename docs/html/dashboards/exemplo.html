@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard de exemplo</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, sans-serif; background: #1a1a2e; color: #eee; min-height: 100vh; }
+    header { padding: 1.5rem 2rem; background: #16213e; border-bottom: 1px solid #0f3460; }
+    h1 { font-size: 1.25rem; font-weight: 600; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; padding: 2rem; }
+    .card { background: #16213e; border-radius: 8px; padding: 1.5rem; border: 1px solid #0f3460; }
+    .card h2 { font-size: 0.75rem; text-transform: uppercase; color: #888; margin-bottom: 0.5rem; }
+    .card .value { font-size: 2rem; font-weight: 700; color: #42b983; }
+    .status { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #42b983; margin-right: 0.5rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><span class="status"></span>Dashboard de exemplo — Integrações Prod</h1>
+  </header>
+  <div class="grid">
+    <div class="card"><h2>CPU</h2><div class="value">23%</div></div>
+    <div class="card"><h2>Memória</h2><div class="value">1.2 GB</div></div>
+    <div class="card"><h2>Fluxos ativos</h2><div class="value">12</div></div>
+    <div class="card"><h2>Uptime</h2><div class="value">99.9%</div></div>
+  </div>
+</body>
+</html>

@@ -18,6 +18,22 @@
     .sidebar .app-name {
       font-size: 1rem;
     }
+    .alert-public {
+      background: #ffebee;
+      border: 1px solid #ef5350;
+      border-left: 4px solid #d32f2f;
+      border-radius: 4px;
+      color: #b71c1c;
+      padding: 0.85rem 1rem;
+      margin: 1rem 0;
+    }
+    .alert-public strong {
+      color: #c62828;
+    }
+    .alert-public p:last-child,
+    .alert-public ul:last-child {
+      margin-bottom: 0;
+    }
   </style>
 </head>
 <body>
@@ -34,6 +50,7 @@
       relativePath: false,
       auto2top: true,
       alias: {
+        '/CONTRIBUTING.md': '/docs/CONTRIBUTING.md',
         '/': '/docs/README.md',
         '/README.md': '/docs/README.md',
         '/_sidebar.md': '/docs/_sidebar.md',

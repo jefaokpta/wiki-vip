@@ -6,19 +6,19 @@ Esta página demonstra as duas formas de usar arquivos HTML na wiki.
 
 Ideal para diagramas, fluxos simples ou widgets compactos.
 
-<iframe src="diagramas/exemplo.html" width="100%" height="280" frameborder="0"></iframe>
+<iframe src="/docs/html/diagramas/exemplo.html" width="100%" height="280" frameborder="0"></iframe>
 
 Código usado:
 
 ```html
-<iframe src="diagramas/exemplo.html" width="100%" height="280" frameborder="0"></iframe>
+<iframe src="/docs/html/diagramas/exemplo.html" width="100%" height="280" frameborder="0"></iframe>
 ```
 
 ## 2. Link direto (dashboards completos)
 
 Ideal para dashboards interativos ou páginas HTML complexas.
 
-- [Abrir dashboard de exemplo](dashboards/exemplo.html)
+- [Abrir dashboard de exemplo](/docs/html/dashboards/exemplo.html)
 
 ## Onde colocar arquivos HTML
 

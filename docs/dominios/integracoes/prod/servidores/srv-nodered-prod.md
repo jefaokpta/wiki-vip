@@ -18,6 +18,6 @@
 
 ## Diagramas / Dashboards
 
-<iframe src="../../../../html/diagramas/exemplo.html" width="100%" height="300" frameborder="0"></iframe>
+<iframe src="/docs/html/diagramas/exemplo.html" width="100%" height="300" frameborder="0"></iframe>
 
-- [Dashboard completo](../../../../html/dashboards/exemplo.html)
+- [Dashboard completo](/docs/html/dashboards/exemplo.html)

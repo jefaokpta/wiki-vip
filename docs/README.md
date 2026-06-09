@@ -21,7 +21,11 @@ Bem-vindo à wiki de infraestrutura da empresa. Este repositório centraliza doc
 | Redes | _@equipe-rede — preencher_ | Comercial |
 | Segurança | _@equipe-seg — preencher_ | 24/7 |
 
-> **Atenção:** este repositório é **público**. Não inclua senhas, tokens ou chaves privadas.
+<div class="alert-public">
+
+**Atenção:** este repositório é **público**. Não inclua senhas, tokens ou chaves privadas.
+
+</div>
 
 ## Mapa da documentação
 
@@ -41,4 +45,4 @@ flowchart LR
 
 ## Como contribuir
 
-Consulte [CONTRIBUTING.md](../CONTRIBUTING.md) na raiz do repositório para convenções de naming, estrutura de pastas e processo de PR.
+Consulte o [Guia de Contribuição](/docs/CONTRIBUTING.md) para convenções de naming, estrutura de pastas e processo de PR.

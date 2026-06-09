@@ -8,4 +8,8 @@ _Conexões VPN site-to-site, client VPN e acessos remotos._
 |------|------|---------|-------------|-----------|
 | _—_ | _site-to-site_ | _—_ | _—_ | _—_ |
 
-> Não documente chaves pre-shared ou credenciais neste repositório público.
+<div class="alert-public">
+
+Não documente chaves pre-shared ou credenciais neste repositório **público**.
+
+</div>

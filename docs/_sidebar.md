@@ -1,4 +1,5 @@
 * [Home](/docs/README.md)
+* [Como contribuir](/docs/CONTRIBUTING.md)
 * Global
   * [Redes e Segurança](/docs/global/redes-seguranca/README.md)
     * [VPCs](/docs/global/redes-seguranca/vpcs.md)

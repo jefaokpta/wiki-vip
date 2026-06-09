@@ -61,7 +61,7 @@ wiki-vip/
 
 ## Contribuir
 
-Leia [CONTRIBUTING.md](CONTRIBUTING.md) para convenções de estrutura, naming e processo de PR.
+Leia o [Guia de Contribuição](docs/CONTRIBUTING.md) para convenções de estrutura, naming e processo de PR.
 
 ## Hierarquia da documentação
 

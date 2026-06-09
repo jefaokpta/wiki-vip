@@ -12,15 +12,10 @@ https://{org-ou-usuario}.github.io/{nome-do-repo}/
 
 ## Desenvolvimento local
 
-Com Python 3:
-
-```bash
-python3 -m http.server 3000
-```
 
 Abra `http://localhost:3000` no navegador.
 
-Com Node.js (alternativa):
+Com Node.js:
 
 ```bash
 npx serve .

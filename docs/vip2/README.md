@@ -9,6 +9,10 @@ Nova plataforma distribuida que concentra todas as frentes da empresa PABX, What
 - [Register](/docs/vip2/vip-register.md)
 - [Worker](/docs/vip2/vip-worker.md)
 
+## Status do Projeto
+
+- [Roadmap](/docs/vip2/roadmap.md)
+
 ## Acessos em Construção
 
 - [Acesso a plataforma](https://www.vipsolutions.com.br)

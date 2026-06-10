@@ -1,35 +1,23 @@
 * [Home](/docs/README.md)
 * [Como contribuir](/docs/CONTRIBUTING.md)
+
 * Infraestrutura
-  * [Redes e Segurança](/docs/global/redes-seguranca/README.md)
-    * [VPCs](/docs/global/redes-seguranca/vpcs.md)
-    * [Subnets](/docs/global/redes-seguranca/subnets.md)
-    * [Firewall / Security Groups](/docs/global/redes-seguranca/firewall-security-groups.md)
-    * [VPNs](/docs/global/redes-seguranca/vpns.md)
-  * [Serviços Compartilhados](/docs/global/servicos-compartilhados/README.md)
-    * [DNS](/docs/global/servicos-compartilhados/dns.md)
-    * [Monitoramento / Zabbix](/docs/global/servicos-compartilhados/monitoramento-zabbix.md)
-    * [CI/CD](/docs/global/servicos-compartilhados/cicd.md)
-* Ambientes
-  * [Produção](/docs/ambientes/prod/README.md)
-    * [Camada Web](/docs/ambientes/prod/camada-web.md)
-    * [Camada App](/docs/ambientes/prod/camada-app.md)
-    * [Camada Database](/docs/ambientes/prod/camada-database.md)
-  * [Desenvolvimento](/docs/ambientes/dev/README.md)
-    * [Camada Web](/docs/ambientes/dev/camada-web.md)
-    * [Camada App](/docs/ambientes/dev/camada-app.md)
-    * [Camada Database](/docs/ambientes/dev/camada-database.md)
-* Domínios
-  * [CI/CD](/docs/dominios/cicd/README.md)
-    * [Produção](/docs/dominios/cicd/prod/README.md)
-    * [Desenvolvimento](/docs/dominios/cicd/dev/README.md)
+  * [Redes e Segurança](/docs/infraestrutura/redes-seguranca/README.md)
+    * [VPCs](/docs/infraestrutura/redes-seguranca/vpcs.md)
+    * [Subnets](/docs/infraestrutura/redes-seguranca/subnets.md)
+    * [Firewall / Security Groups](/docs/infraestrutura/redes-seguranca/firewall-security-groups.md)
+    * [VPNs](/docs/infraestrutura/redes-seguranca/vpns.md)
+    * [DNS](/docs/infraestrutura/servicos-compartilhados/dns.md)
+    * [CI/CD](/docs/infraestrutura/servicos-compartilhados/cicd.md)
+  * [Monitoramento](/docs/infraestrutura/redes-seguranca/vpns.md)
+    * [Monitoramento / Zabbix](/docs/infraestrutura/servicos-compartilhados/monitoramento-zabbix.md)
+
 * Integrações
   * [Visão geral](/docs/dominios/integracoes/README.md)
   * [Produção](/docs/dominios/integracoes/prod/README.md)
     * [srv-nodered-prod](/docs/dominios/integracoes/prod/servidores/srv-nodered-prod.md)
   * [Desenvolvimento](/docs/dominios/integracoes/dev/README.md)
     * [srv-nodered-dev](/docs/dominios/integracoes/dev/servidores/srv-nodered-dev.md)
-* Monitoramento
-  * [Visão geral](/docs/dominios/monitoramento/README.md)
-  * [Produção](/docs/dominios/monitoramento/prod/README.md)
-  * [Desenvolvimento](/docs/dominios/monitoramento/dev/README.md)
+
+* VIP 2
+  * [Visão geral](/docs/vip2/README.md)

@@ -21,3 +21,7 @@
 
 * VIP 2
   * [Visão geral](/docs/vip2/README.md)
+  * [Frontend](/docs/vip2/frontend.md)
+  * [PABX Manager](/docs/vip2/vip-pabx-manager.md)
+  * [Register](/docs/vip2/vip-register.md)
+  * [Worker](/docs/vip2/vip-worker.md)

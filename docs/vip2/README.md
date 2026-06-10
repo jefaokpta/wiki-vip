@@ -4,9 +4,10 @@ Nova plataforma distribuida que concentra todas as frentes da empresa PABX, What
 
 ## Aplicações
 
-- [Frontend](frontend/README.md)
-- [Backend](backend/README.md)
-- [Worker](worker/README.md)
+- [Frontend](/docs/vip2/frontend.md)
+- [PABX Manager](/docs/vip2/vip-pabx-manager.md)
+- [Register](/docs/vip2/vip-register.md)
+- [Worker](/docs/vip2/vip-worker.md)
 
 ## Acessos em Construção
 

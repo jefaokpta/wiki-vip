@@ -19,7 +19,7 @@
   * [Desenvolvimento](/docs/dominios/integracoes/dev/README.md)
     * [srv-nodered-dev](/docs/dominios/integracoes/dev/servidores/srv-nodered-dev.md)
 
-* VIP 2
+* VIP 2 Plataforma
   * [Visão geral](/docs/vip2/README.md)
   * [Frontend](/docs/vip2/frontend.md)
   * [PABX Manager](/docs/vip2/vip-pabx-manager.md)

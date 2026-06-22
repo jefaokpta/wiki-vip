@@ -13,7 +13,7 @@
     * [Monitoramento / Zabbix](/docs/infraestrutura/servicos-compartilhados/monitoramento-zabbix.md)
 
 * Integrações
-  * [Visão geral](/docs/dominios/integracoes/README.md)
+  * [Caioba visão](/docs/dominios/integracoes/README.md)
   * [Produção](/docs/dominios/integracoes/prod/README.md)
     * [srv-nodered-prod](/docs/dominios/integracoes/prod/servidores/srv-nodered-prod.md)
   * [Desenvolvimento](/docs/dominios/integracoes/dev/README.md)

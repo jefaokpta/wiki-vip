@@ -25,3 +25,4 @@
   * [PABX Manager](/docs/vip2/vip-pabx-manager.md)
   * [Register](/docs/vip2/vip-register.md)
   * [Worker](/docs/vip2/vip-worker.md)
+  * [instala Mysql](/docs/vip2/mysql.md)

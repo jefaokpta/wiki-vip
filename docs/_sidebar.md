@@ -1,7 +1,7 @@
 * [Home](/docs/README.md)
 * [Como contribuir](/docs/CONTRIBUTING.md)
 
-* Infraestrutura
+* Infraestrutura - Filipe
   * [Redes e Segurança](/docs/infraestrutura/redes-seguranca/README.md)
     * [VPCs](/docs/infraestrutura/redes-seguranca/vpcs.md)
     * [Subnets](/docs/infraestrutura/redes-seguranca/subnets.md)

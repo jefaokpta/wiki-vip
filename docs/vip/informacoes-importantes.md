@@ -14,9 +14,9 @@ Mas a partir da data mencionada, este acesso foi modificado: **agora o cliente s
 
 #### EXTRAÇÃO DE RELATÓRIOS
 
-Os servidores compartilhados da Vip **(CallCenter, IPBX e IPBCenter)** podem apresentar restrições de no período de extração de alguns relatórios. Isso acontece para evitar que o sistema fique indisponível caso um cliente resolvar solicitar grandes períodos, e com isso, interfira na qualidade das chamadas e também nos acessos de outros clientes do mesmo servidor.
+Os servidores compartilhados da Vip **(CallCenter, IPBX e IPBCenter)** podem apresentar restrições de período de extração de alguns relatórios. Isso acontece para evitar que o sistema fique indisponível caso um cliente resolvar solicitar grandes períodos, e com isso, interfira na qualidade das chamadas e também nos acessos de outros clientes do mesmo servidor.
 
-Por isso, caso a empresa possua mais de 20 agentes, o sistema pode impedir que relatórios como Estatísticas dos Agentes, fiquem restritos ao período semanal (7 dias).
+Por isso, caso a empresa possua mais de 20 agentes, o sistema pode fazer que relatórios como Estatísticas dos Agentes, fiquem restritos ao período semanal (7 dias).
 
 O relatório de chamadas no período pode sofrer restrições para buscas mensais (período de 30 dias).
 

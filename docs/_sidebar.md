@@ -39,5 +39,6 @@
   - [Worker](/docs/vip2/vip-worker.md)
 
 * Suporte
-  - Procedimentos
-    - [Excluir filas do VIP](/docs/suporte/excluir-filas.md)
+  * Procedimentos
+    * [Excluir filas do VIP](/docs/suporte/excluir-filas.md)
+    * [Certificado SSL Wildcard](/docs/suporte/certificado-ssl.md)

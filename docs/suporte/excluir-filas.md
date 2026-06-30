@@ -2,7 +2,7 @@
 
 Ao excluir uma fila, a mesma permanece no VIP na tela Gerenciar > Gerenciar Filas.
 
-![Filas de atendimento](./filas.jpg "Fila")
+![Filas de atendimento](../../assets/img/suporte/filas.jpg "Fila")
 
 Para remover a fila dessa tela, é necessário removê-la da memória do vip-manager, aplicação responsável pela gestão da tela de controle de ramais, gerenciamento de filas, bloquear e permitir acesso (IP tables do servidor) e da memória do asterisk.
 
@@ -28,4 +28,4 @@ sudo rasterisk (para entrar no asterisk) > depois o comando queue show > ENTER
 
 Após isso, a fila será removida da tela Gerenciar Filas.
 
-![Fila excluída](./fila-excluida.jpg "Fila Excluída")
+![Fila excluída](../../assets/img/suporte/fila-excluida.jpg "Fila Excluída")

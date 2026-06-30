@@ -29,3 +29,4 @@
 * Suporte
   * Procedimentos
     * [Excluir filas do VIP](/docs/suporte/excluir-filas.md)
+    * [Certificado SSL Wildcard](/docs/suporte/certificado-ssl.md)

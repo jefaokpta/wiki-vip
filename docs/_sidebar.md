@@ -15,9 +15,13 @@
     - [Monitoramento / Zabbix](/docs/infraestrutura/servicos-compartilhados/monitoramento-zabbix.md)
 
 - Integrações
-  - [Caioba Teste](/docs/integracoes/README.md)
   - [Produção](/docs/dominios/integracoes/prod/README.md)
-    - [srv-nodered-prod](/docs/dominios/integracoes/prod/servidores/srv-nodered-prod.md)
+    - API VIP
+      - [Click to Call/VerifyCRM](/docs/integracoes/prod/apivip/apiclicktocall.md)
+    - Agendor
+      - [Click to Call](/docs/integracoes/prod/agendor/agendorclicktocall.md)
+    - NodeRed
+      - [srv-nodered-prod](/docs/dominios/integracoes/prod/servidores/srv-nodered-prod.md)
   - [Desenvolvimento](/docs/dominios/integracoes/dev/README.md)
     - [srv-nodered-dev](/docs/dominios/integracoes/dev/servidores/srv-nodered-dev.md)
 

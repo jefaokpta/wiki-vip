@@ -23,7 +23,9 @@
     - NodeRed
       - [srv-nodered-prod](/docs/dominios/integracoes/prod/servidores/srv-nodered-prod.md)
   - [Desenvolvimento](/docs/dominios/integracoes/dev/README.md)
-    - [srv-nodered-dev](/docs/dominios/integracoes/dev/servidores/srv-nodered-dev.md)
+    - Vip Tickets
+      - [Estrutura do Projeto](/docs/integracoes/dev/viptickets/viptickets.md)
+    - [Node Red](/docs/dominios/integracoes/dev/servidores/srv-nodered-dev.md)
 
 - Sistemas de Uso Interno
   - [Licenciados](/docs/sistemas-interno/licenciados.md)

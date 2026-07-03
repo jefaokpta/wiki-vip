@@ -36,6 +36,7 @@
 - VIP
   - [Visão geral](/docs/vip/README.md)
   - [Informações Importantes](/docs/vip/informacoes-importantes.md)
+  - [Temas Customizados](/docs/vip/servidor-customizado.md)
 
 - VIP 2 Plataforma
   - [Visão geral](/docs/vip2/README.md)
@@ -45,6 +46,6 @@
   - [Worker](/docs/vip2/vip-worker.md)
 
 * Suporte
-  * Procedimentos
-    * [Excluir filas do VIP](/docs/suporte/excluir-filas.md)
-    * [Certificado SSL Wildcard](/docs/suporte/certificado-ssl.md)
+  - Procedimentos
+    - [Excluir filas do VIP](/docs/suporte/excluir-filas.md)
+    - [Certificado SSL Wildcard](/docs/suporte/certificado-ssl.md)

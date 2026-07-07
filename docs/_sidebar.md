@@ -8,6 +8,7 @@
     * [Firewall / Security Groups](/docs/infraestrutura/redes-seguranca/firewall-security-groups.md)
     * [VipManager](/docs/infraestrutura/redes-seguranca/VipManager.md)
     * [Backup gravações compartilhados](/docs/infraestrutura/redes-seguranca/BKP_Gravacoes_Compartilhados.md)
+    * [Rotas Jupiter](/docs/infraestrutura/redes-seguranca/Rotas_Jupiter.md)
     * [VPNs](/docs/infraestrutura/redes-seguranca/vpns.md)
     * [DNS](/docs/infraestrutura/servicos-compartilhados/dns.md)
     * [CI/CD](/docs/infraestrutura/servicos-compartilhados/cicd.md)

@@ -9,6 +9,7 @@
     * [VipManager](/docs/infraestrutura/redes-seguranca/VipManager.md)
     * [Backup gravações compartilhados](/docs/infraestrutura/redes-seguranca/BKP_Gravacoes_Compartilhados.md)
     * [Rotas Jupiter](/docs/infraestrutura/redes-seguranca/Rotas_Jupiter.md)
+    * [Certbot / Let's Encrypt](/docs/infraestrutura/redes-seguranca/Certbot_LetsEncrypt.md)
     * [VPNs](/docs/infraestrutura/redes-seguranca/vpns.md)
     * [DNS](/docs/infraestrutura/servicos-compartilhados/dns.md)
     * [CI/CD](/docs/infraestrutura/servicos-compartilhados/cicd.md)

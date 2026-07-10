@@ -53,17 +53,6 @@ docs/
 3. Adicione entrada em `_sidebar.md`
 4. Opcional: registre owner em `.github/CODEOWNERS`
 
-## Arquivos HTML
-
-| Tipo | Pasta | Uso |
-|------|-------|-----|
-| Diagramas pequenos | `html/diagramas/` | Embed via `<iframe>` com caminho `/docs/html/diagramas/...` |
-| Dashboards completos | `html/dashboards/` | Link direto com caminho `/docs/html/dashboards/...` |
-
-Veja [exemplo-html.md](/docs/html/exemplo-html.md) para referência.
-
-> **GitHub Pages:** use caminhos absolutos a partir de `/docs/` para HTML e páginas da wiki (ex.: `/docs/CONTRIBUTING.md`), nunca `../` para fora de `docs/`.
-
 ## Processo de PR
 
 1. Crie uma branch a partir de `main`
@@ -72,24 +61,6 @@ Veja [exemplo-html.md](/docs/html/exemplo-html.md) para referência.
 4. Solicite review do responsável pelo domínio
 5. Após merge, o GitHub Pages publica automaticamente
 
-## Checklist do autor
-
-- [ ] Nenhuma credencial ou dado sensível no conteúdo
-- [ ] Ficha segue o template mínimo
-- [ ] Links adicionados nos índices de ambiente (se nova ficha)
-- [ ] Sidebar atualizada (se novo domínio ou seção)
-- [ ] Caminhos absolutos `/docs/...` em links da wiki
-
-## Logo e assets
-
-Coloque imagens estáticas em `assets/img/` na raiz do repositório.
-
-Referência no Docsify (`index.html`):
-
-```javascript
-logo: '/assets/img/logo.png'
-```
-
 ## Dúvidas
 
-Abra uma issue no repositório ou contate @equipe-infra.
+Contato o Edson Ferino atraés do email edson@vipsolutions.com.br.

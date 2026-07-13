@@ -1,5 +1,6 @@
 - [Home](/docs/README.md)
 - [Como contribuir](/docs/CONTRIBUTING.md)
+- [Guia de Edição Markdown](/docs/guiamarkdown.md)
 
 * Infraestrutura
   * [Redes e Segurança](/docs/infraestrutura/redes-seguranca/README.md)

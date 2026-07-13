@@ -20,7 +20,11 @@
       - [Click to Call/VerifyCRM](/docs/integracoes/prod/apivip/apiclicktocall.md)
     - Agendor
       - [Click to Call](/docs/integracoes/prod/agendor/agendorclicktocall.md)
+    - ExactSales
+      - [Integração WebPhone](/docs/integracoes/prod/exactsales/ExactSales.md)
     - NodeRed
+      - [Rotinas Hub](/docs/integracoes/prod/nodered/rotinashub.md)
+      - [Snapshots Magalu](/docs/integracoes/prod/nodered/snapshotsmagalu.md)
       - [srv-nodered-prod](/docs/dominios/integracoes/prod/servidores/srv-nodered-prod.md)
   - [Desenvolvimento](/docs/dominios/integracoes/dev/README.md)
     - Vip Tickets

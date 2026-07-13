@@ -10,27 +10,29 @@ Todas as tarefas são executadas por meio de scripts **Node.js**, acionados atra
 # Arquitetura Geral
 
 ```
+\`\`\`mermaid
+
 flowchart TD  
+ A\["04:00 - Importação Clientes"\]  
+ B\["04:30 - Importação Tiflux"\]  
+ C\["08:00 - Importação Tráfego"\]  
+ D\["08:15 - Agregação Tráfego"\]  
+ E\["08:20 - Agregação Plano"\]  
+ F\["Agendor\<br/\>A cada 30 minutos"\]  
   
-A\[04:00 - Importação Clientes\]  
+ HUB\[(Banco HubVIP)\]  
   
-B\[04:30 - Importação Tiflux\]  
-  
-C\[08:00 - Importação Tráfego\]  
-  
-D\[08:15 - Agregação Tráfego\]  
-  
-E\[08:20 - Agregação Plano\]  
-  
-F\[Agendor - A cada 30 minutos\]  
-  
-A --\> HUB\[(Banco HubVIP)\]  
-B --\> HUB  
-C --\> HUB  
-D --\> HUB  
-E --\> HUB  
-F --\> HUB
+ A --\> HUB  
+ B --\> HUB  
+ C --\> HUB  
+ D --\> HUB  
+ E --\> HUB  
+ F --\> HUB
+
+\`\`\`
 ```
+
+
 
 
 # Fluxo 1 - Importação de Clientes
@@ -54,18 +56,36 @@ Atualizar diariamente a base de clientes provenientes das seguintes plataformas:
 ## Fluxo
 
 ```
-Inject  
-        │  
-        ├── Importa Clientes IPBCenter  
-        ├── Importa Clientes IPBX  
-        └── Importa Clientes VipCC  
-                    │  
-              Execução Node.js  
-                    │  
-             Function Validador  
-                    │  
-                 Debug
+`\`\`\`mermaid`
 ```
+
+```
+`flowchart TD`
+
+`    A\[Inject\]`
+
+
+`    A --\> B\[Importa Clientes IPBCenter\]`
+
+`    A --\> C\[Importa Clientes IPBX\]`
+
+`    A --\> D\[Importa Clientes VipCC\]`
+
+
+`    B --\> E\[Execução Node.js\]`
+
+`    C --\> E`
+
+`    D --\> E`
+
+
+`    E --\> F\[Function Validador\]`
+
+`    F --\> G\[Debug\]`
+
+`\`\`\``
+```
+
 
 ## Scripts executados
 

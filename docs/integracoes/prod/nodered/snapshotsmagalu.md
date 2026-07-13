@@ -20,22 +20,33 @@ Todo o processo utiliza exclusivamente a API REST da Magalu Cloud.
 # Arquitetura Geral
 
 ```
-flowchart TD  
-  
-A\[04:00\<br/\>Criar Snapshots\]  
-  
-B\[05:00\<br/\>Limpeza\]  
-  
-A --\> C\[Lista Instâncias\]  
-  
-C --\> D\[Cria Snapshot\]  
-  
-B --\> E\[Lista Snapshots\]  
-  
-E --\> F\[Seleciona antigos\]  
-  
-F --\> G\[Exclui Snapshot\]
+`\`\`\`mermaid`
 ```
+
+```
+`flowchart TD`
+
+`    A\["04:00\<br/\>Criar Snapshots"\]`
+
+`    B\["05:00\<br/\>Limpeza"\]`
+
+
+`    A --\> C\["Lista Instâncias"\]`
+
+`    C --\> D\["Cria Snapshot"\]`
+
+
+`    B --\> E\["Lista Snapshots"\]`
+
+`    E --\> F\["Seleciona antigos"\]`
+
+`    F --\> G\["Exclui Snapshot"\]`
+
+`\`\`\``
+```
+
+
+
 
 
 # Componentes do Fluxo
@@ -74,34 +85,32 @@ O node **Cron Plus** executa diariamente às:
 ## Fluxograma
 
 ```
-flowchart LR  
-  
-Cron  
-  
---\>  
-  
-Lista Instâncias  
-  
---\>  
-  
-Seleciona Dados  
-  
---\>  
-  
-Split  
-  
---\>  
-  
-Monta Payload  
-  
---\>  
-  
-POST Snapshot  
-  
---\>  
-  
-Debug
+`\`\`\`mermaid`
 ```
+
+```
+`flowchart LR`
+
+`    A\[Cron\]`
+
+`    B\[Lista Instâncias\]`
+
+`    C\[Seleciona Dados\]`
+
+`    D\[Split\]`
+
+`    E\[Monta Payload\]`
+
+`    F\[POST Snapshot\]`
+
+`    G\[Debug\]`
+
+
+`    A --\> B --\> C --\> D --\> E --\> F --\> G`
+
+`\`\`\``
+```
+
 
 
 ## Etapa 1 - Listagem das Instâncias
@@ -518,40 +527,28 @@ x-api-key
 
 ```
 sequenceDiagram  
+    participant Cron  
+    participant NodeRED  
+    participant API  
   
-participant Cron  
+    Cron-\>\>NodeRED: 04:00  
+    NodeRED-\>\>API: GET Instances  
+    API--\>\>NodeRED: Lista  
   
-participant NodeRED  
+    loop Cada VM  
+        NodeRED-\>\>API: POST Snapshot  
+    end  
   
-participant API  
+    Cron-\>\>NodeRED: 05:00  
+    NodeRED-\>\>API: GET Snapshots  
+    API--\>\>NodeRED: Lista  
   
-Cron-\>\>NodeRED: 04:00  
+    NodeRED-\>\>NodeRED: Agrupa por VM  
+    NodeRED-\>\>NodeRED: Mantém 7  
   
-NodeRED-\>\>API: GET Instances  
-  
-API--\>\>NodeRED: Lista  
-  
-loop Cada VM  
-  
-NodeRED-\>\>API: POST Snapshot  
-  
-end  
-  
-Cron-\>\>NodeRED: 05:00  
-  
-NodeRED-\>\>API: GET Snapshots  
-  
-API--\>\>NodeRED: Lista  
-  
-NodeRED-\>\>NodeRED: Agrupa por VM  
-  
-NodeRED-\>\>NodeRED: Mantém 7  
-  
-loop Snapshots Antigos  
-  
-NodeRED-\>\>API: DELETE Snapshot  
-  
-end
+    loop Snapshots antigos  
+        NodeRED-\>\>API: DELETE Snapshot  
+    end
 ```
 
 

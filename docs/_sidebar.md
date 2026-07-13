@@ -29,9 +29,9 @@
     - [Node Red](/docs/dominios/integracoes/dev/servidores/srv-nodered-dev.md)
   - NodeRed
     - Fluxos
-      - [Rotinas Hub](/docs/integracoes/prod/nodered/rotinashub.md)
-      - [Snapshots Magalu](/docs/integracoes/prod/nodered/snapshotsmagalu.md)
       - [API Rest Teste](/docs/integracoes/nodered/fluxos/testewebhook.md)
+      - [Rotinas Hub](/docs/integracoes/nodered/fluxos/rotinashub.md)
+      - [Snapshots Magalu](/docs/integracoes/nodered/fluxos/snapshotsmagalu.md)
 
 - Sistemas de Uso Interno
   - [Licenciados](/docs/sistemas-interno/licenciados.md)

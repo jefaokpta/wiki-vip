@@ -25,11 +25,10 @@
     - NodeRed
       - [Rotinas Hub](/docs/integracoes/prod/nodered/rotinashub.md)
       - [Snapshots Magalu](/docs/integracoes/prod/nodered/snapshotsmagalu.md)
-      - [srv-nodered-prod](/docs/dominios/integracoes/prod/servidores/srv-nodered-prod.md)
-  - [Desenvolvimento](/docs/dominios/integracoes/dev/README.md)
+    - [Desenvolvimento](/docs/dominios/integracoes/dev/README.md)
     - Vip Tickets
       - [Estrutura do Projeto](/docs/integracoes/dev/viptickets/viptickets.md)
-    - [Node Red](/docs/dominios/integracoes/dev/servidores/srv-nodered-dev.md)
+
 
 - Sistemas de Uso Interno
   - [Licenciados](/docs/sistemas-interno/licenciados.md)

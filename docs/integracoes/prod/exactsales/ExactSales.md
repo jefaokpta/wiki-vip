@@ -2,173 +2,353 @@
 
 ## Visão Geral
 
-Este documento descreve o processo de integração entre o **Exact Sales** e o **VIP**, incluindo:
+Este documento descreve o processo de integração entre o **Exact Sales** e o **VIP**, contemplando todas as etapas necessárias para configuração e funcionamento da comunicação entre as plataformas.
+
+A integração envolve:
 
 - obtenção do Token de API;
-
-- identificação do UserID;
-
+- identificação do UserID dos usuários;
 - configuração da integração no VIP;
-
 - configuração dos usuários;
+- habilitação do recurso de clique para discagem (**Click-to-Call**);
+- funcionamento das gravações de chamadas.
 
-- habilitação do clique para discagem (Click-to-Call);
-
-- funcionamento das gravações.
-
+---
 
 # Pré-requisitos
 
-Antes de iniciar, tenha em mãos:
+Antes de iniciar a configuração da integração, certifique-se de possuir:
 
-- acesso administrativo ao Exact Sales;
+- Acesso administrativo ao Exact Sales;
+- Acesso administrativo ao VIP;
+- **OrgID** fornecido pela Exact;
+- Collection do Postman para testes de API (opcional).
 
-- acesso administrativo ao VIP;
-
-- OrgID fornecido pela Exact;
-
-- Collection Postman (opcional) para testes.
-
+---
 
 # 1. Obtendo o Token da API
 
-No Exact Sales:
+## Localização
 
-**Configurações → Integrações**
+No painel administrativo do **Exact Sales**, acesse:
 
-Copie o **Token** da API.
+```text
+Configurações
+    └── Integrações
+```
 
-> Este token será utilizado em todas as chamadas para a API do Exact.
+Localize a seção referente às integrações via API.
 
-> 📷 *Inserir imagem da tela de Integrações*
+---
 
+## Token da API
+
+Copie o token disponibilizado pelo Exact Sales.
+
+Esse token será utilizado como autenticação em todas as chamadas realizadas contra a API do Exact.
+
+Exemplo:
+
+```text
+Authorization: Bearer <TOKEN_API>
+```
+
+> **Importante:** mantenha o token protegido. Ele possui permissão para acessar informações da organização no Exact Sales.
+
+---
+
+## Evidência
+
+📷 **Inserir imagem da tela de Integrações**
+
+---
 
 # 2. Obtendo o UserID
 
-Utilize o Token obtido anteriormente na requisição:
+## Objetivo
 
-```
-  
+O **UserID** é o identificador único de cada usuário/vendedor dentro do Exact Sales.
+
+Esse identificador será utilizado posteriormente na configuração dos usuários dentro do VIP.
+
+---
+
+# Consulta de Usuários
+
+Utilize o Token da API obtido anteriormente para realizar a consulta dos usuários cadastrados.
+
+## Requisição
+
+```text
 Listar SDRs
 ```
 
-Informe o Token no Header da requisição.
+---
 
-O retorno será semelhante a:
+## Autenticação
 
+O Token deve ser informado no Header da requisição.
+
+Exemplo:
+
+```http
+Authorization: Bearer <TOKEN_API>
 ```
-\{  
-    "id": 12345,  
-    "name": "Usuário"  
-\}
+
+---
+
+## Retorno Esperado
+
+A API retornará informações dos usuários cadastrados.
+
+Exemplo:
+
+```json
+{
+    "id": 12345,
+    "name": "Usuário"
+}
 ```
 
-O campo **id** corresponde ao **UserID**.
+---
 
-> Caso existam vários vendedores, cada um possuirá um ID diferente.
+## Identificação do UserID
 
-> 📷 *Inserir imagem da resposta da API*
+O campo:
 
+```json
+"id"
+```
+
+corresponde ao **UserID** do usuário dentro do Exact Sales.
+
+Exemplo:
+
+```text
+UserID = 12345
+```
+
+---
+
+## Múltiplos Usuários
+
+Caso existam vários vendedores cadastrados no Exact Sales, cada usuário possuirá um identificador diferente.
+
+Exemplo:
+
+```text
+Usuário A
+ID: 12345
+
+Usuário B
+ID: 12346
+
+Usuário C
+ID: 12347
+```
+
+Cada UserID deverá ser associado corretamente ao respectivo usuário no VIP.
+
+---
+
+## Evidência
+
+📷 **Inserir imagem da resposta da API**
 
 # 3. Configuração no VIP
 
-No cadastro da integração informe:
+## Objetivo
+
+Após obter o **Token da API**, **UserID** e **OrgID**, é necessário realizar a configuração da integração dentro do ambiente VIP.
+
+---
+
+## Dados da Integração
+
+No cadastro da integração, preencha os campos conforme abaixo:
 
 | Campo | Valor |
-| - | - |
-| Token | Token da API |
-| UserID | ID obtido anteriormente |
-| OrgID | Informado pela Exact |
-| URL | [https://api.exactspotter.com/api/v2/call](https://api.exactspotter.com/api/v2/call) |
+|-------|-------|
+| Token | Token da API obtido no Exact Sales |
+| UserID | ID do usuário obtido através da API de SDRs |
+| OrgID | Identificador da organização fornecido pela Exact |
+| URL | `https://api.exactspotter.com/api/v2/call` |
 | Bina | Opcional |
 
+---
 
-### Observações
+## Observações
 
-- O OrgID precisa ser solicitado para a Exact.
+- O **OrgID** deve ser solicitado diretamente para a Exact Sales.
+- A URL da API deve ser sempre:
 
-- A URL sempre será:
-
-```
-  
+```text
 https://api.exactspotter.com/api/v2/call
 ```
 
-- A Bina somente deve ser preenchida quando houver necessidade de utilizar uma DDR específica por vendedor.
+- O campo **Bina** deve ser preenchido somente quando houver necessidade de utilizar uma DDR específica por vendedor.
 
-> 📷 *Inserir imagem da configuração do VIP*
+---
 
+## Evidência
+
+📷 **Inserir imagem da configuração do VIP**
+
+---
 
 # 4. Configuração do Usuário
 
-No Exact:
+## Objetivo
 
-**Equipe → Editar usuário**
+Associar corretamente o usuário do Exact Sales ao recurso de telefonia utilizado no VIP.
 
-Configure o campo **Telefone 1**:
+---
 
-- se o vendedor utiliza fila de atendimento, informe o número do Agente;
-
-- caso contrário, informe o Ramal.
-
-> 📷 *Inserir imagem*
-
-
-# 5. Configuração do Click-to-Call
+## Configuração no Exact Sales
 
 Acesse:
 
-**Configurações → Gerenciar Configurações Avançadas → Outros**
-
-No campo:
-
-**Customização do Link de Telefone**
-
-Informe:
-
-```
-  
-tel:\{tel\}
+```text
+Equipe
+    └── Editar usuário
 ```
 
-Isso permitirá que o clique sobre o telefone do cliente abra automaticamente o softphone.
+Localize o campo:
 
-> 📷 *Inserir imagem*
+```text
+Telefone 1
+```
 
+---
+
+## Preenchimento do Telefone
+
+O valor informado depende do cenário utilizado pelo vendedor:
+
+### Usuário utilizando fila de atendimento
+
+Informar:
+
+```text
+Número do Agente
+```
+
+---
+
+### Usuário utilizando ramal direto
+
+Informar:
+
+```text
+Ramal do usuário
+```
+
+---
+
+## Evidência
+
+📷 **Inserir imagem da configuração do usuário**
+
+---
+
+# 5. Configuração do Click-to-Call
+
+## Objetivo
+
+Habilitar o recurso de clique sobre o telefone do cliente dentro do Exact Sales, permitindo iniciar uma chamada automaticamente pelo softphone.
+
+---
+
+## Localização
+
+No Exact Sales, acesse:
+
+```text
+Configurações
+    └── Gerenciar Configurações Avançadas
+        └── Outros
+```
+
+---
+
+## Campo
+
+Preencher:
+
+```text
+Customização do Link de Telefone
+```
+
+---
+
+## Valor
+
+Informar:
+
+```text
+tel:{tel}
+```
+
+---
+
+## Funcionamento
+
+Após essa configuração, ao clicar no número de telefone de um cliente dentro do Exact Sales, o sistema irá abrir automaticamente o softphone configurado no ambiente VIP.
+
+---
+
+## Evidência
+
+📷 **Inserir imagem da configuração**
+
+---
 
 # Funcionamento da Gravação
 
-Após realizar uma ligação:
+Após a realização de uma ligação através da integração:
 
-- a gravação ficará anexada ao card do cliente;
+- a gravação da chamada ficará anexada ao card do cliente;
+- o histórico da ligação poderá ser consultado diretamente pelo usuário;
+- as informações da chamada permanecerão vinculadas ao registro do cliente no Exact Sales.
 
-- o histórico poderá ser consultado diretamente pelo usuário.
-
+---
 
 # Limitações
 
-> Esta integração suporta apenas **Softphone**.
+A integração atualmente suporta somente:
 
-Para utilização com **Webphone**, é necessário contratar o serviço diretamente com a Exact.
+```text
+Softphone
+```
 
+Para utilização com:
+
+```text
+Webphone
+```
+
+é necessário contratar o serviço diretamente com a Exact Sales.
+
+---
 
 # Fluxo da Integração
 
-```
-flowchart TD  
-  
-A\[Obter Token\] --\> B\[Listar SDRs\]  
-  
-B --\> C\[Obter UserID\]  
-  
-C --\> D\[Solicitar OrgID\]  
-  
-D --\> E\[Configurar VIP\]  
-  
-E --\> F\[Configurar Usuário\]  
-  
-F --\> G\[Configurar Click-to-Call\]  
-  
-G --\> H\[Ligações com gravação\]
-```
+```mermaid
+flowchart TD
+    A["Obter Token"]
+    B["Listar SDRs"]
+    C["Obter UserID"]
+    D["Solicitar OrgID"]
+    E["Configurar VIP"]
+    F["Configurar Usuário"]
+    G["Configurar Click-to-Call"]
+    H["Ligações com gravação"]
 
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+```

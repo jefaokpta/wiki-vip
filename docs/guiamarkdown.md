@@ -674,7 +674,18 @@ O Mermaid possui diversos tipos de diagramas. Abaixo estão apresentados os exem
 
 Utilizado para representar processos, decisões e fluxos de execução.
 
-## Exemplo
+## Código Mermaid
+
+```text
+flowchart TD
+    A[Início] --> B[Login]
+    B --> C{Senha correta?}
+    C -->|Sim| D[Página Inicial]
+    C -->|Não| E[Erro]
+    E --> B
+```
+
+## Resultado
 
 ~~~mermaid
 flowchart TD
@@ -693,6 +704,15 @@ flowchart TD
 ## Forma simplificada
 
 Também é possível criar fluxos utilizando a sintaxe:
+
+## Código Mermaid
+
+```text
+graph LR
+    A --> B --> C
+```
+
+## Resultado
 
 ~~~mermaid
 graph LR
@@ -736,7 +756,20 @@ flowchart TD
 
 Utilizado para representar a comunicação e troca de mensagens entre sistemas, serviços ou componentes.
 
-## Exemplo
+## Código Mermaid
+
+```text
+sequenceDiagram
+    participant Cliente
+    participant API
+    participant Banco
+    Cliente->>API: POST /login
+    API->>Banco: Consulta usuário
+    Banco-->>API: Dados
+    API-->>Cliente: Token JWT
+```
+
+## Resultado
 
 ~~~mermaid
 sequenceDiagram
@@ -757,7 +790,22 @@ sequenceDiagram
 
 Utilizado principalmente para documentação técnica, modelagem de objetos e representação de estruturas de classes.
 
-## Exemplo
+## Código Mermaid
+
+```text
+classDiagram
+class Cliente{
+    +int id
+    +string nome
+    +salvar()
+}
+class Pedido{
+    +int numero
+}
+Cliente --> Pedido
+```
+
+## Resultado
 
 ~~~mermaid
 classDiagram
@@ -781,7 +829,19 @@ classDiagram
 
 Utilizado para representar os estados de um processo e suas transições.
 
-## Exemplo
+## Código Mermaid
+
+```text
+stateDiagram-v2
+[*] --> Aguardando
+Aguardando --> Processando
+Processando --> Finalizado
+Processando --> Erro
+Finalizado --> [*]
+Erro --> [*]
+```
+
+## Resultado
 
 ~~~mermaid
 stateDiagram-v2
@@ -803,7 +863,22 @@ stateDiagram-v2
 
 Utilizado para documentar estruturas de banco de dados, tabelas e relacionamentos entre entidades.
 
-## Exemplo
+## Código Mermaid
+
+```text
+erDiagram
+CLIENTE ||--o{ PEDIDO : possui
+CLIENTE {
+    int id
+    string nome
+}
+PEDIDO {
+    int id
+    decimal valor
+}
+```
+
+## Resultado
 
 ~~~mermaid
 erDiagram
@@ -827,7 +902,20 @@ erDiagram
 
 Utilizado para criar cronogramas de projetos, acompanhamento de tarefas e planejamento de entregas.
 
-## Exemplo
+## Código Mermaid
+
+```text
+gantt
+title Projeto
+dateFormat YYYY-MM-DD
+section Backend
+API :2026-07-01,5d
+Banco :3d
+section Frontend
+Tela Login :4d
+```
+
+## Resultado
 
 ~~~mermaid
 gantt
@@ -851,7 +939,20 @@ gantt
 
 Utilizado para criar mapas da jornada do usuário, mostrando etapas, ações e experiências durante um processo.
 
-## Exemplo
+## Código Mermaid
+
+```text
+journey
+    title Compra Online
+    section Escolha
+      Pesquisar produto: 5: Cliente
+    section Compra
+      Finalizar pedido: 4: Cliente
+    section Entrega
+      Receber produto: 5: Cliente
+```
+
+## Resultado
 
 ~~~mermaid
 journey
@@ -876,7 +977,21 @@ Utilizado para representar visualmente estratégias de versionamento Git, branch
 
 Muito útil para explicar fluxos de desenvolvimento.
 
-## Exemplo
+## Código Mermaid
+
+```text
+gitGraph
+commit
+commit
+branch develop
+checkout develop
+commit
+commit
+checkout main
+merge develop
+```
+
+## Resultado
 
 ~~~mermaid
 gitGraph
@@ -904,7 +1019,17 @@ gitGraph
 
 Utilizado para representar proporções e distribuições de dados.
 
-## Exemplo
+## Código Mermaid
+
+```text
+pie
+title Chamados
+"Resolvidos" : 80
+"Abertos" : 15
+"Pendentes" : 5
+```
+
+## Resultado
 
 ~~~mermaid
 pie
@@ -924,7 +1049,17 @@ pie
 
 Utilizado para representar eventos históricos, versões ou marcos de um projeto.
 
-## Exemplo
+## Código Mermaid
+
+```text
+timeline
+title Histórico
+2024 : Sistema criado
+2025 : API integrada
+2026 : Nova arquitetura
+```
+
+## Resultado
 
 ~~~mermaid
 timeline
@@ -944,24 +1079,30 @@ timeline
 
 Utilizado para organizar ideias, módulos e estruturas hierárquicas.
 
-## Exemplo
+## Código Mermaid
+
+```text
+mindmap
+  root((Projeto))
+    Backend
+      API
+      Banco
+    Infraestrutura
+      Docker
+      Nginx
+```
+
+## Resultado
 
 ~~~mermaid
 mindmap
-
-    root((Projeto))
-
-        Backend
-
-            API
-
-            Banco
-
-        Frontend
-
-            React
-
-            Mobile
+  root((Sistema))
+    Backend
+      API
+      Banco
+    Infraestrutura
+      Docker
+      Nginx
 ~~~
 
 ---

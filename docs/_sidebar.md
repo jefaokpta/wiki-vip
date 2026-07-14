@@ -53,7 +53,7 @@
   - [Register](/docs/vip2/vip-register.md)
   - [Worker](/docs/vip2/vip-worker.md)
 
-* Suporte
-  - Procedimentos
+- Suporte
     - [Excluir filas do VIP](/docs/suporte/excluir-filas.md)
-    - [Certificado SSL Wildcard](/docs/suporte/certificado-ssl.md)
+    - [Instalar certificado SSL Wildcard](/docs/suporte/certificado-ssl.md)
+    - [Voicemail](/docs/suporte/voicemail.md)

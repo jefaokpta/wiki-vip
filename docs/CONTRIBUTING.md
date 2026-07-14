@@ -63,4 +63,4 @@ docs/
 
 ## Dúvidas
 
-Contato o Edson Ferino atraés do email edson@vipsolutions.com.br.
+Contate o Edson Ferino através do email edson@vipsolutions.com.br.

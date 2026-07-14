@@ -55,6 +55,7 @@
   - [Worker](/docs/vip2/vip-worker.md)
 
 - Suporte
+    - [Comandos Asterisk](/docs/suporte/comandos-asterisk.md)
     - [Excluir filas do VIP](/docs/suporte/excluir-filas.md)
     - [Instalar certificado SSL Wildcard](/docs/suporte/certificado-ssl.md)
     - [Voicemail](/docs/suporte/voicemail.md)

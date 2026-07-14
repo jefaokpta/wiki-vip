@@ -32,6 +32,7 @@
     - Fluxos
       - [API Rest Teste](/docs/integracoes/nodered/fluxos/testewebhook.md)
       - [Automação Marketing](/docs/integracoes/nodered/fluxos/marketing.md)
+      - [Parser - STFC](/docs/integracoes/nodered/fluxos/parser.md)
       - [Rotinas Hub](/docs/integracoes/nodered/fluxos/rotinashub.md)
       - [Snapshots Magalu](/docs/integracoes/nodered/fluxos/snapshotsmagalu.md)
 

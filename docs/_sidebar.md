@@ -25,7 +25,15 @@
       - [Click to Call](/docs/integracoes/prod/agendor/agendorclicktocall.md)
     - ExactSales
       - [Integração WebPhone](/docs/integracoes/prod/exactsales/ExactSales.md)
-  - [Desenvolvimento](/docs/dominios/integracoes/dev/README.md)
+    - Funil de Vendas
+      - [Funil de Vendas Nexus](/docs/integracoes/prod/funildevendas/funildevendasnexus.md)
+    - Kommo
+      - [Kommo CRM](/docs/integracoes/prod/kommo/kommo.md)
+    - PipeDrive
+      - [PipeDrive](/docs/integracoes/prod/pipedrive/pipedrive.md)
+    - PipeRun
+      - [PipeRun](/docs/integracoes/prod/piperun/piperun.md)
+  - [Desenvolvimento](/docs/integracoes/dev/README.md)
     - Vip Tickets
       - [Estrutura do Projeto](/docs/integracoes/dev/viptickets/viptickets.md)
     - [Node Red](/docs/dominios/integracoes/dev/servidores/srv-nodered-dev.md)

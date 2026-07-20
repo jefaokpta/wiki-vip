@@ -18,7 +18,7 @@
     * [Monitoramento / Zabbix](/docs/infraestrutura/servicos-compartilhados/monitoramento-zabbix.md)
 
 - Integrações
-  - [Produção](/docs/dominios/integracoes/prod/README.md)
+  - Produção
     - API VIP
       - [Click to Call/VerifyCRM](/docs/integracoes/prod/apivip/apiclicktocall.md)
     - Agendor
@@ -33,13 +33,13 @@
       - [PipeDrive](/docs/integracoes/prod/pipedrive/pipedrive.md)
     - PipeRun
       - [PipeRun](/docs/integracoes/prod/piperun/piperun.md)
-  - [Desenvolvimento](/docs/integracoes/dev/README.md)
+  - Desenvolvimento
     - Vip Tickets
       - [Estrutura do Projeto](/docs/integracoes/dev/viptickets/viptickets.md)
     - [Node Red](/docs/dominios/integracoes/dev/servidores/srv-nodered-dev.md)
   - NodeRed
     - Fluxos
-      - [API Email]
+      - API Email
         - [Envios](/docs/integracoes/nodered/fluxos/api-email/sentemail.md)
         - [Recebimento](/docs/integracoes/nodered/fluxos/api-email/recebimento.md)
       - [API Rest Teste](/docs/integracoes/nodered/fluxos/testewebhook.md)

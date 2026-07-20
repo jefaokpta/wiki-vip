@@ -39,6 +39,9 @@
     - [Node Red](/docs/dominios/integracoes/dev/servidores/srv-nodered-dev.md)
   - NodeRed
     - Fluxos
+      - [API Email]
+        - [Envios](/docs/integracoes/nodered/fluxos/api-email/sentemail.md)
+        - [Recebimento](/docs/integracoes/nodered/fluxos/api-email/recebimento.md)
       - [API Rest Teste](/docs/integracoes/nodered/fluxos/testewebhook.md)
       - [Automação Marketing](/docs/integracoes/nodered/fluxos/marketing.md)
       - [Parser - STFC](/docs/integracoes/nodered/fluxos/parser.md)

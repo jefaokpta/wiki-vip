@@ -70,4 +70,5 @@
     - [Comandos Asterisk](/docs/suporte/comandos-asterisk.md)
     - [Excluir filas do VIP](/docs/suporte/excluir-filas.md)
     - [Instalar certificado SSL Wildcard](/docs/suporte/certificado-ssl.md)
-    - [Voicemail](/docs/suporte/voicemail.md)
+    - [Configurar Voicemail](/docs/suporte/voicemail.md)
+    - [Instalar codecs](/docs/suporte/codecs.md)

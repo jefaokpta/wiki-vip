@@ -8,6 +8,7 @@ Obrigado por contribuir com a wiki de infraestrutura. Este documento define as c
 
 Este repositório é **público**. Nunca inclua:
 
+- URLs válidas
 - Senhas, tokens ou API keys
 - Chaves privadas SSH/TLS
 - Credenciais de banco de dados

@@ -23,7 +23,7 @@ Bem-vindo à wiki de infraestrutura da empresa. Este repositório centraliza doc
 
 <div class="alert-public">
 
-**Atenção:** este repositório é **público**. Não inclua senhas, tokens ou chaves privadas.
+**Atenção:** este repositório é **público**. Não inclua URLs válidas, senhas, tokens ou chaves privadas.
 
 </div>
 

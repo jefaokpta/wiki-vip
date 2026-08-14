@@ -75,3 +75,4 @@
     - [Instalar codecs](/docs/suporte/codecs.md)
     - [Softphones](/docs/suporte/softphones.md)
     - [Implantação de clientes](/docs/suporte/implantacao-clientes.md)
+    - [WhatsApp Business API](/docs/suporte/whatsapp-business-api.md)

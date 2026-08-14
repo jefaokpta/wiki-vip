@@ -11,6 +11,7 @@
     * [Rotas Jupiter](/docs/infraestrutura/redes-seguranca/Rotas_Jupiter.md)
     * [Certbot / Let's Encrypt](/docs/infraestrutura/redes-seguranca/Certbot_LetsEncrypt.md)
     * [VPNs](/docs/infraestrutura/redes-seguranca/vpns.md)
+    * [Matrix](/docs/infraestrutura/redes-seguranca/Matrix.md)
     * [DNS](/docs/infraestrutura/servicos-compartilhados/dns.md)
     * [CI/CD](/docs/infraestrutura/servicos-compartilhados/cicd.md)
   * [Monitoramento](/docs/infraestrutura/redes-seguranca/vpns.md)

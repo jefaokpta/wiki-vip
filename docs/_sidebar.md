@@ -57,6 +57,7 @@
 
 - Suporte
     - [Comandos Asterisk](/docs/suporte/comandos-asterisk.md)
+    - [Bloqueio e desbloqueio de ligações](/docs/suporte/bloqueio-desbloqueio-ligacoes.md)
     - [Excluir filas do VIP](/docs/suporte/excluir-filas.md)
     - [Instalar certificado SSL Wildcard](/docs/suporte/certificado-ssl.md)
     - [Configurar Voicemail](/docs/suporte/voicemail.md)

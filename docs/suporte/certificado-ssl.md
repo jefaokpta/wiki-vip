@@ -105,7 +105,7 @@ Utilize esse site para verificar a instalação do SSL do servidor: <a href="htt
 
 Em uma instalação correta, a sequência de verificações deve ficar parecido com isso:
 
-![SSL Checker](../../assets/img/suporte/sslchecker.jpg "SSL Checker")
+![SSL Checker](../../assets/img/suporte/certificado-ssl/sslchecker.jpg "SSL Checker")
 
 ## Referências importantes
 

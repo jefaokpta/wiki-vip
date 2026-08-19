@@ -24,7 +24,7 @@ sudo rasterisk > informe a sua senha > ENTER
 
 Para localizar o ramal e derrubar o canal preso, o comando é `hangup request SIP/IDEMPRESAERAMAL-IDCANAL`, digite o comando até o `IDEMPRESAERAMAL-` e pressione TAB para mostrar os canais presos, no exemplo abaixo o ramal 1141500 tem 2 canais presos, o `00053906` e o `0005392e` : 
 
-![Ramal com canal preso](../../assets/img/suporte/ramalcanalpreso.jpg "Ramal com canal preso")
+![Ramal com canal preso](../../assets/img/suporte/comandos-asterisk/ramalcanalpreso.jpg "Ramal com canal preso")
 
 Preencha o comando com o canal inteiro e pressione ENTER, a partir dai o ramal estará livre para receber e efetuar chamadas.
 
@@ -32,5 +32,5 @@ Preencha o comando com o canal inteiro e pressione ENTER, a partir dai o ramal e
 
 Caso o asterisk retorne a mensagem `is not a known channel`, a única forma de resolver é reiniciando o asterisk pós-horário, ação que deve ser realizada pela equipe de servidores VIP.
 
-![Canal impossível de derrubar](../../assets/img/suporte/ramalcanalpreso.jpg "Canal impossível de derrubar")
+![Canal impossível de derrubar](../../assets/img/suporte/comandos-asterisk/canalimpossivelderrubar.jpg "Canal impossível de derrubar")
 

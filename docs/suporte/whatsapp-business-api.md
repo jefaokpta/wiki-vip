@@ -19,7 +19,7 @@ Certifique-se que os acessos estejam disponíveis fazendo login em ambos os ende
 
 Acreditamos que sua empresa já possua uma conta empresarial com o Facebook. Caso ainda não tenha, acesse https://business.facebook.com para criar um "Portfólio empresarial".
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/1.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/1.jpg "API WhatsApp Business")
 
 
 
@@ -40,45 +40,45 @@ Após preencher as informações, clique em **Criar**. Nas próximas duas janela
 2. Após fazer login, clique em **"Meus apps"**
 3. Clique em **"Criar aplicativo"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/2.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/2.jpg "API WhatsApp Business")
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/3.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/3.jpg "API WhatsApp Business")
 
 ### Preenchendo Dados do Aplicativo
 
 1. Informe o **nome da aplicação** e seu **email comercial**
 2. Clique em **"Avançar"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/4.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/4.jpg "API WhatsApp Business")
 
 3. Na tela seguinte, clique em **"Outros"** (nas opções à esquerda) e também em **"Outro"** (na última opção à direita)
 4. Clique em **"Avançar"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/5.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/5.jpg "API WhatsApp Business")
 
 ### Selecionando Tipo de Aplicativo
 
 1. Selecione **"Empresa"**
 2. Clique em **"Avançar"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/6.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/6.jpg "API WhatsApp Business")
 
 ### Informações da Empresa
 
 1. Informe o **nome do app**, o **email de contato** e selecione o **portfólio empresarial** (criado nos pré-requisitos)
 2. Clique em **"Criar Aplicativo"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/7.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/7.jpg "API WhatsApp Business")
 
 ### Configurando o WhatsApp
 
 1. Na próxima tela, clique em **"Configurar"** na opção do **"WhatsApp"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/8.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/8.jpg "API WhatsApp Business")
 
 2. Na tela seguinte, clique em **"Continuar"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/9.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/9.jpg "API WhatsApp Business")
 
 ---
 
@@ -92,17 +92,17 @@ O próximo passo é criar um usuário de perfil **"Administrador"** para gerenci
 2. Clique na opção **"Usuários do sistema"** (à esquerda)
 3. Clique em **"Adicionar"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/10.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/10.jpg "API WhatsApp Business")
 
 4. Aceite os termos do Facebook para prosseguir
 5. Informe o **nome do usuário** a ser criado
 6. Escolha a opção **"Admin"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/11.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/11.jpg "API WhatsApp Business")
 
 7. Clique em **"Atribuir ativos"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/12.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/12.jpg "API WhatsApp Business")
 
 ### Atribuindo Permissões
 
@@ -110,11 +110,11 @@ O próximo passo é criar um usuário de perfil **"Administrador"** para gerenci
 2. Selecione **"Gerenciar app"** na opção **"Controle Total"**
 3. Clique em **"Atribuir ativos"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/13.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/13.jpg "API WhatsApp Business")
 
 4. Clique em **"Concluir"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/14.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/14.jpg "API WhatsApp Business")
 
 ---
 
@@ -122,26 +122,26 @@ O próximo passo é criar um usuário de perfil **"Administrador"** para gerenci
 
 1. De volta à tela inicial, clique em **"Gerar token"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/15.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/15.jpg "API WhatsApp Business")
 
 2. Na tela seguinte, selecione a aplicação atribuída anteriormente ao novo usuário
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/16.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/16.jpg "API WhatsApp Business")
 
 3. Em **"Definir expiração"**, escolha **"Nunca"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/17.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/17.jpg "API WhatsApp Business")
 
 4. Em **"Atribuir permissões"**, selecione as 3 últimas opções que iniciam com **"whatsapp_business_"**:
    - `whatsapp_business_manage_events`
    - `whatsapp_business_management`
    - `whatsapp_business_messaging`
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/18.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/18.jpg "API WhatsApp Business")
 
 5. Clique em **"Gerar token"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/19.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/19.jpg "API WhatsApp Business")
 
 **IMPORTANTE:** Copie o token gerado e guarde essa informação em um arquivo seguro (bloco de notas, Word, etc.).
 
@@ -151,19 +151,19 @@ O próximo passo é criar um usuário de perfil **"Administrador"** para gerenci
 
 1. Clique no botão azul **"Começar a usar a API"** (ou acesse pelo menu esquerdo: WhatsApp > Início rápido)
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/20.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/20.jpg "API WhatsApp Business")
 
 2. Na opção **"De"**, clique onde aparece **"Número de teste"**
 3. Clique em **"Adicionar telefone"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/21.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/21.jpg "API WhatsApp Business")
 
 ### Informações da Empresa
 
 1. Informe os dados de sua empresa
 2. Clique em **"Avançar"**
 
-    ![API WhatsApp Business](../../assets/img/suporte/api_meta/22.jpg "API WhatsApp Business")
+    ![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/22.jpg "API WhatsApp Business")
 
 ### Categoria e Fuso Horário
 
@@ -171,21 +171,21 @@ O próximo passo é criar um usuário de perfil **"Administrador"** para gerenci
 2. Ajuste o **"Fuso horário"**
 3. Clique em **"Avançar"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/23.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/23.jpg "API WhatsApp Business")
 
 ### Adicionando Número de Telefone
 
 1. Informe o **número de telefone**
 2. Escolha como quer receber a confirmação do Facebook: **SMS** ou **Ligação telefônica**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/24.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/24.jpg "API WhatsApp Business")
 
 **⚠️ IMPORTANTE:** O número informado **não pode estar vinculado a nenhuma outra conta com o WhatsApp**. Se quiser utilizar um número nessa condição, terá de excluir a outra conta primeiro.
 
 3. Informe o **código de verificação** recebido
 4. Clique em **"Avançar"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/25.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/25.jpg "API WhatsApp Business")
 
 ---
 
@@ -199,7 +199,7 @@ Guarde o código de **"Identificação da conta do WhatsApp Business"** que apar
 
 O WABA está disponível no menu **WhatsApp > Configuração de API**.
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/26.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/26.jpg "API WhatsApp Business")
 
 ### Configurando Forma de Pagamento
 
@@ -209,9 +209,9 @@ Ainda nesta tela, você verá pendências envolvendo a "forma de pagamento" que 
 2. Clique em **"Adicionar uma forma de pagamento"**
 3. Informe seus dados à Meta
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/27.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/27.jpg "API WhatsApp Business")
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/28.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/28.jpg "API WhatsApp Business")
 
 Esse alerta de pendências desaparecerá após configurar a forma de pagamento.
 
@@ -223,11 +223,11 @@ Para checar o status do seu número com a Meta:
 2. Clique no menu em **"Todas as ferramentas"**
 3. Clique em **"Gerenciador do WhatsApp"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/29.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/29.jpg "API WhatsApp Business")
 
 4. No menu à esquerda, clique em **"Números de telefones"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/30.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/30.jpg "API WhatsApp Business")
 
 ---
 
@@ -243,18 +243,18 @@ Após receber a confirmação de ativação do número por parte da Meta, você 
 
 1. No sistema Vip, navegue até **WhatsApp > Status de Conexão**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/31.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/31.jpg "API WhatsApp Business")
 
 2. Informe o código **WABA** (obtido nas configurações do Meta)
 3. Informe o **token** gerado anteriormente
 4. Clique em **"Conectar"** para prosseguir
 5. Será exibido o nome do seu portfólio empresarial e o número de telefone cadastrado
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/32.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/32.jpg "API WhatsApp Business")
 
 6. Clique no nome do seu **"Portfólio empresarial"** para confirmar a utilização do mesmo
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/33.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/33.jpg "API WhatsApp Business")
 
 ### Recebendo Dados para Cadastro
 
@@ -274,14 +274,14 @@ De volta às configurações do aplicativo:
 3. No campo **"Verificar token"**, insira o **Token** (fornecido pelo sistema Wip)
 4. Clique em **"Verificar e salvar"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/34.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/34.jpg "API WhatsApp Business")
 
 ### Selecionando o Produto
 
 1. Clique em **"Selecione o produto"**
 2. Escolha a opção **"Whatsapp Business Account"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/35.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/35.jpg "API WhatsApp Business")
 
 ### Ativando Webhooks
 
@@ -291,7 +291,7 @@ Role a página e ative as seguintes opções:
 - `message_template_status_update`
 - `messages`
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/36.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/36.jpg "API WhatsApp Business")
 
 ### Salvando Configurações
 
@@ -299,7 +299,7 @@ Role a página e ative as seguintes opções:
 2. Informe novamente seu **token**
 3. Clique em **"Verificar e salvar"**
 
-![API WhatsApp Business](../../assets/img/suporte/api_meta/37.jpg "API WhatsApp Business")
+![API WhatsApp Business](../../assets/img/suporte/whatsapp-business-api/37.jpg "API WhatsApp Business")
 
 ---
 

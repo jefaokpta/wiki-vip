@@ -10,7 +10,7 @@ Para ativá-lo, o cliente que possui o login de acesso com o perfil `Usuário (A
 
 Na tela abaixo é necessário cadastrar um email válido para receber as gravações e uma senha de facilidades (númerica) para ativar o serviço com o comando *30
 
-![Ativar Voicemail](../../assets/img/suporte/voicemailramal.jpg "Ativar Voicemail")
+![Ativar Voicemail](../../assets/img/suporte/voicemail/voicemailramal.jpg "Ativar Voicemail")
 
 ## Configuração através do ramal
 
@@ -34,7 +34,7 @@ Utilize um client de SFTP de sua escolha (ex: FileZilla, CyberDuck, WinSCP, etc)
 
 Obs: se a pasta não estiver criada, faça uma chamada para o ramal com o Voicemail ativo e recuse-a, assim a estrutura de pasta será criada.
 
-![Pasta Voicemail](../../assets/img/suporte/pastavoicemail.jpg "Pasta Voicemail")
+![Pasta Voicemail](../../assets/img/suporte/voicemail/pastavoicemail.jpg "Pasta Voicemail")
 
 O gravação precisa estar nomeada como `unavail.wav` para que funcione corretamente.
 
@@ -42,7 +42,7 @@ O gravação precisa estar nomeada como `unavail.wav` para que funcione corretam
 
 Com a configuração finalizada, toda mensagem gravada no Voicemail é enviada para o email cadastrado no ramal, como no exemplo abaixo:
 
-![Voicemail recebido](../../assets/img/suporte/voicemailrecebido.jpg " Voicemail recebido")
+![Voicemail recebido](../../assets/img/suporte/voicemail/voicemailrecebido.jpg " Voicemail recebido")
 
 ## Observações
 

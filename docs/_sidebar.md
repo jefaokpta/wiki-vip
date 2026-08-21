@@ -50,10 +50,12 @@
       - [Snapshots Magalu](/docs/integracoes/nodered/fluxos/snapshotsmagalu.md)
 
 - Sistemas de Uso Interno
-  - [Licenciados](/docs/sistemas-interno/licenciados.md)
-  - [Traffic](/docs/sistemas-interno/trafego.md)
   - [CRM-Vip](/docs/sistemas-interno/vip-crm.md)
   - [Demo-Vip](/docs/sistemas-interno/demo-vip.md)
+  - [Licenciados](/docs/sistemas-interno/licenciados.md)
+  - Metabase
+      - [Tráfego](/docs/sistemas-interno/metabase/trafego.md)
+  - [Traffic](/docs/sistemas-interno/trafego.md)
 
 - VIP
   - [Visão geral](/docs/vip/README.md)

@@ -35,6 +35,8 @@
     - PipeRun
       - [PipeRun](/docs/integracoes/prod/piperun/piperun.md)
   - Desenvolvimento
+    - Novo Vip
+      - [Documento SRS(/docs/integracoes/dev/novovip/srs_vipvendas.md)]
     - Vip Tickets
       - [Estrutura do Projeto](/docs/integracoes/dev/viptickets/viptickets.md)
     - [Node Red](/docs/dominios/integracoes/dev/servidores/srv-nodered-dev.md)

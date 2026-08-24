@@ -1,4 +1,4 @@
-# Especificações Gerais do Projeto
+## Especificações Gerais do Projeto
 
 * [ ] O VIP está evoluindo de uma plataforma predominantemente de voz para uma plataforma de atendimento omnichannel.
 * [ ] O Módulo de Vendas será um módulo próprio dentro dessa plataforma.

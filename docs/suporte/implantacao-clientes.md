@@ -87,14 +87,14 @@ Caso o cliente necessite que uma chamada toque em um conjunto de ramais específ
 - Música de espera (áudio que o cliente ouve enquanto aguarda atendimento)
 - Anúncio (Também conhecido como sussurro, é um áudio reproduzido ao atender a chamada, identificando a origem da mesma)
 - Ramais (selecione os ramais que podem receber chamadas desse grupo)
-- Grupo de captura (oermite a captura de chamadas para os ramais vinculados ao grupo)
+- Grupo de captura (permite a captura de chamadas para os ramais vinculados ao grupo)
 - Tipos de toque
     - Tocar em todos (toca em todos os ramais selecionados)
     - Tocar aleatóriamente (toca aleatóriamente em qualquer um dos ramais selecionados)
     - Tocar no mais ocioso (toca no ramal que está a mais tempo sem atender chamadas)
 - Tempo de toque
-    É o tempo que a chamada toca em um ramal do grupo antes de começar a tocar em outro (nos casos do aleatoriamente ou mais ocioso)
-    
+    - É o tempo que a chamada toca em um ramal do grupo antes de começar a tocar em outro (nos casos do aleatoriamente ou mais ocioso)
+
 ### Grupo de captura
 
 Tela `Cadastros > Grupo de captura`
@@ -102,6 +102,10 @@ Tela `Cadastros > Grupo de captura`
 Crie o(s) grupo(s) e depois vincule(os) aos ramais a partir da coluna `Membros` 
 
 O grupo de captura serve para que um ramal possa capturar uma chamada de outro ramal que faz parte do mesmmo grupo com o comando `*8`, esse comando puxa a chamada de outro ramal para o ramal que executou o comando
+
+#### Membros
+
+Clique na lupa (&#128269;) do grupo para selecionar quais ramais serão vinculados ao mesmo.
 
 ### Músicas do Sistema
 
@@ -156,7 +160,7 @@ Tela `Cadastros > Uras do Sistema`
 
 Para clientes que desejam uma URA de atendmimento, a mesma deve ser criada com:
 
-- Título (Para fácil identificação no relatório Estatítiscas da URA e na configuração de regras de discagem)
+- Título (Para fácil identificação no relatório `Estatítiscas da URA` e na configuração de regras de discagem)
 - Tempo de duração em 2
 - Tempo de digitação em 2
 - Mensagem da URA (áudio cadastrado anteriormente na tela `Músicas do Sistema`)
@@ -169,7 +173,122 @@ Para clientes que desejam uma URA de atendmimento, a mesma deve ser criada com:
 
 #### Ações da URA
 
-- Desligar (desliga a chamada ao discar alguma opção)
-- Voltar ao inicio (reproduz o áudio da URA novamente)
-- Discar para ramal (ao discar uma opção, o sistema redireciona a chamada para o ramal selecionado)
-- Grupo de chamada ()
+- Desligar: desliga a chamada ao discar alguma opção
+- Voltar ao inicio: reproduz o áudio da URA novamente
+- Discar para ramal: direciona a chamada para o ramal selecionado
+- Grupo de chamada: direciona para um grupo de chamada/ramais
+- Desvio Especial: direciona a chamada para uma regra de discagem com a mesma expressão regular da ação
+- Sub-URA: direciona a chamada para um sub-menu com outras opções de discagem
+- WhatsApp: Permite iniciar uma conversa no sistema WIP (WhatsApp da VIP)
+
+### Agentes
+
+Para clientes que desejam utilizar filas de atendimento, os agentes devem ser criados antes das filas, com isso os agentes poderão efetuar o login em fila para receber ou efetuar chamadas e atender contatos que interagirem com chatbots do WIP.
+
+Tela `Cadastros > Agentes`, nessa tela é necessário configurar:
+
+- Agentes individualmente ou em lote
+- Agente: código de 4 digitos, geralmente o range padrão é 9XXX, mas alguns servidores tem o range par (2XXX, 4XXX, 6XXX e 8XXX)
+- Nome: Cadastrar Primeiro nome e no máximo 1 sobrenome para fácil identificação na tela `Gerenciar Filas` e nos relatórios `DAC Sintético/Analítico, Estatísticas/Atividades do Agente`
+- Email: Opcional
+- Senha: utilizada para logar no sistema de fila
+
+### Filas
+
+Para clientes que desejam utilizar filas de atendimento, possibilitando receber chamadas
+
+Tela `Cadastros > Filas`
+
+- Título (Para fácil identificação na tela `Gerenciar Filas` e nos relatórios `DAC Analítico/Sintético`)
+- Música de espera (áudio que o cliente ouve enquanto aguarda atendimento)
+- Grupo de captura (permite a captura de chamadas para os ramais vinculados ao grupo)
+- Anúncio (Também conhecido como sussurro, é um áudio reproduzido ao atender a chamada, identificando a origem da mesma)
+- Entrar em fila
+- Tempo de toque
+    - É o tempo que a chamada toca em um ramal do grupo antes de começar a tocar em outro (nos casos do aleatoriamente ou mais ocioso)
+
+#### Comportamento da Fila
+- **Entrar em fila vazia (padrão inicial: não)**
+    - Não: impede que chamadas entrem na fila quando a mesma estiver sem nenhum agente logado
+    - Sim: permite que chamadas entrem na fila mesmo sem nenhum agente logado
+    - Não (se todos os agentes estiverem em pausa): impede que chamadas entrem na fila quando todos os agentes estiverem em pausa
+<br><br>
+- **Sair de fila vazia (padrão inicial: sim)**
+    - Não: impede que as chamadas saiam da fila caso os agentes desloguem da mesma
+    - Sim: chamadas que estiverem em espera na fila sairão da mesma caso os agentes desloguem da mesma
+    - Sim (se todos os agentes estiverem em pausa): chamadas que estiverem em espera na fila sairão quando todos os agentes entrarem em pausa
+<br><br>
+- **Distruibuir Chamadas**
+    - Tocar em todos (ringall): toca em todos os agentes disponíveis (a menos que estejam com DND ativo no ramal)
+    - Tocar no mais ocioso (leastrecent): toca no agente que está a mais tempo sem atender chamadas
+    - Aletoriamente (random): toca aleatoriamente em qualquer agente que esteja disponível
+    - Igualmente (rrmemory): Distribui as chamadas entre os agentes e lembra o ultimo agente que tentou chamar caso o mesmo não tenha atendido
+    - Tocar no que menos atendeu (fewestcalls): Toca no agente que atendeu menos chamadas
+<br><br>
+- Gravar fila: sempre em **sim**
+
+#### WhatsApp
+- WhatsApp - Departamentos: Permite a seleção de um departamento do WIP para receber os contatos que interagirem com chatbots do WIP.
+
+#### Membros
+
+Clique na lupa (&#128269;) do fila para selecionar quais agentes serão vinculados a mesma.
+
+Observação: um agente pode fazer parte de mais uma fila, seja para receber chamadas ou fazer uso do WIP.
+
+### Status do Agente
+
+Tela `Cadastros > Status do Agente`
+
+Essa tela permite cadastrar diferentes status de pausa para uso dos agentes no sistema de filas.
+
+Esse status fica visivel para o agente na coluna `modificar status` quando está logado em uma ou mais filas, ao selecionar a pausa, a mesma fica visivel para o gestor na tela `Gerenciar > Gerenciar Filas` e também é registrada no relatório `Atividades do Agente`
+
+### Pesquisa de Satisfação
+
+Tela `Cadastros > Pesquisa de Satisfação`
+
+Para clientes que desejam reproduzir uma pesquisa de satisfação no final de uma ligação atendida por um ramal/agente, nessa tela é necessário configurar:
+
+- Título: para fácil identificação no relatório `Pesquisa de Satisfação` e nas `regras de discagem de Entrada`
+- Áudios: cadastrados em `Músicas do Sistema` 
+    - Saudação: áudio de saudação que o cliente ouve ao entrar na pesquisa
+    - Pergunta 1,2 e 3: pode registrar digitos de 1 até 5, com o intúito de registrar notas de atendimento no geral
+    - Agradecimento: áudio que o cliente ouve após registrar uma nota nas perguntas
+
+## Alias de Discagem
+
+Tela `Regras > Alias de Discagem`
+
+Nessa tela cadastramos o plano de discagem da empresa, permitindo o completamento de ligações saintes com diferentes formatos de discagem, segue abaixo um exemplo de Alias:
+
+- FIXO_LOCAL_11
+    - |[2-5]XXXXXXX
+    - 11|[2-5]XXXXXXX
+    - 011|[2-5]XXXXXXX
+    - 5511|[2-5]XXXXXXX
+<br><br>
+- CELULAR_LOCAL_11
+    - |9XXXXXXXX
+    - 11|9XXXXXXXX
+    - 011|9XXXXXXXX
+    - 5511|9XXXXXXXX
+<br><br>
+- FIXO_DDD
+    - |ZZ[2-5]XXXXXXX
+    - |ZZ[2-5]XXXXXXX
+    - 55|ZZ[2-5]XXXXXXX
+<br><br>
+- CELULAR_DDD
+    - |ZZ9XXXXXXXX
+    - 0|ZZ9XXXXXXXX
+    - 55|ZZ9XXXXXXXX
+<br><br>
+- GRATUITAS
+    - 102XX
+    - 103XX
+    - 106XX
+    - 1XX
+    - 0800.
+
+Esse padrão pode ser criado de forma automática usando o botão `Alias Padrão` na mesma tela, nela é necessário informar somente o `DDD de origem do cliente`, informando o `DDD 21` por exemplo, todo o padrão de alias acima será criado com o `DDD 21`.

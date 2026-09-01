@@ -5,6 +5,7 @@
 
 * Infraestrutura
   * [Redes e Segurança](/docs/infraestrutura/redes-seguranca/README.md)
+    * [Adicionar servidor SSL](/docs/infraestrutura/redes-seguranca/Add_server_ssl.md)
     * [VPCs](/docs/infraestrutura/redes-seguranca/vpcs.md)
     * [Subnets](/docs/infraestrutura/redes-seguranca/subnets.md)
     * [Firewall / Security Groups](/docs/infraestrutura/redes-seguranca/firewall-security-groups.md)

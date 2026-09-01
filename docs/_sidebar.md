@@ -3,6 +3,7 @@
 
 * Infraestrutura
   * [Redes e Segurança](/docs/infraestrutura/redes-seguranca/README.md)
+    * [Adicionar servidor SSL](/docs/infraestrutura/redes-seguranca/Add_server_ssl.md)
     * [VPCs](/docs/infraestrutura/redes-seguranca/vpcs.md)
     * [Subnets](/docs/infraestrutura/redes-seguranca/subnets.md)
     * [Firewall / Security Groups](/docs/infraestrutura/redes-seguranca/firewall-security-groups.md)
@@ -10,7 +11,6 @@
     * [Backup gravações compartilhados](/docs/infraestrutura/redes-seguranca/BKP_Gravacoes_Compartilhados.md)
     * [Rotas Jupiter](/docs/infraestrutura/redes-seguranca/Rotas_Jupiter.md)
     * [Certbot / Let's Encrypt](/docs/infraestrutura/redes-seguranca/Certbot_LetsEncrypt.md)
-    * [Adicionar servidor SSL](/docs/infraestrutura/redes-seguranca/Add_server_ssl.md)
     * [VPNs](/docs/infraestrutura/redes-seguranca/vpns.md)
     * [Matrix](/docs/infraestrutura/redes-seguranca/Matrix.md)
     * [DNS](/docs/infraestrutura/servicos-compartilhados/dns.md)

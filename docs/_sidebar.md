@@ -12,6 +12,8 @@
     * [VipManager](/docs/infraestrutura/redes-seguranca/VipManager.md)
     * [Backup gravações compartilhados](/docs/infraestrutura/redes-seguranca/BKP_Gravacoes_Compartilhados.md)
     * [Rotas Jupiter](/docs/infraestrutura/redes-seguranca/Rotas_Jupiter.md)
+    * [Fluxo de ligações Summit](/docs/infraestrutura/redes-seguranca/Summit_Fluxo_de_ligacoes.md)
+    * [Fluxo de ligações (simplificado)](/docs/infraestrutura/redes-seguranca/Summit_Fluxo_de_ligacoes_simplificado.md)
     * [Certbot / Let's Encrypt](/docs/infraestrutura/redes-seguranca/Certbot_LetsEncrypt.md)
     * [VPNs](/docs/infraestrutura/redes-seguranca/vpns.md)
     * [Matrix](/docs/infraestrutura/redes-seguranca/Matrix.md)

@@ -43,7 +43,8 @@
       - [Documento SRS](/docs/integracoes/dev/novovip/srs_vipvendas.md)
     - Vip Tickets
       - [Estrutura do Projeto](/docs/integracoes/dev/viptickets/viptickets.md)
-    - [Node Red](/docs/dominios/integracoes/dev/servidores/srv-nodered-dev.md)
+    - Passo a Passo
+      - [API Gmail + PUB SUB](/docs/integracoes/dev/passos_a_passos/gmailpubsub.md)
   - NodeRed
     - Fluxos
       - API Email

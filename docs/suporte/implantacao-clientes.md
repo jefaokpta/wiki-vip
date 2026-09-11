@@ -1,4 +1,4 @@
-# Implantação de clientes - EM CONSTRUÇÃO
+# Implantação de clientes
 
 ## Objetivo
 
@@ -256,7 +256,7 @@ Para clientes que desejam reproduzir uma pesquisa de satisfação no final de um
     - Pergunta 1,2 e 3: pode registrar digitos de 1 até 5, com o intúito de registrar notas de atendimento no geral
     - Agradecimento: áudio que o cliente ouve após registrar uma nota nas perguntas
 
-## Alias de Discagem
+### Alias de Discagem
 
 Tela `Regras > Alias de Discagem`
 
@@ -292,3 +292,34 @@ Nessa tela cadastramos o plano de discagem da empresa, permitindo o completament
     - 0800.
 
 Esse padrão pode ser criado de forma automática usando o botão `Alias Padrão` na mesma tela, nela é necessário informar somente o `DDD de origem do cliente`, informando o `DDD 21` por exemplo, todo o padrão de alias acima será criado com o `DDD 21`.
+
+### Regras de Discagem
+
+Tela `Regras > Regras de Discagem`
+
+Nessa tela configuramos as regras de discagem da empresa, customizando:
+
+- Entrada (Receptivo): direcionamento de DDRs para URA, filas, grupos, sequência de ramais.
+- Saída (Ativo): completamento para Fixo, Movel, binagem, techprefix.
+- Internas: chamadas entre ramais de forma geral, ou apenas de ramais especificos.
+- Desvio interno: discagem com códigos que direcionam a chamada para grupos ou sequência de ramais, filas.
+- Desvio especial: chamadas que tem como origem as opções da URA de atendimento
+
+Existe a opção de criar as regras de discagem de forma automática utilizando a opção `Regras Padrões`, nessa nova tela precisamos informar:
+
+- Código de área local: para definir o DDD de origem do cliente nas regras de Fixo e Celular Local
+- TechPrefix: Código de discagem necessário para definir uma rota especifica ou um código de identificação que é enviado junto do número para a operadora que irá completar a chamada: 
+    - 103# ITX 
+    - 104# Bina Movel Aleatorio
+    - 105# Bina Fixo Aleatorio 
+- Rota de saída: cirada anteriormente e já com a seleção de troncos definida.
+
+Preenchendo esses dados, o conjunto de regras `0300, Fixo Local, Celular Local, Fixo DDD, Celular DDD e Gratuitas` será criado.
+
+A regra de `Internas`consiste no comunicação entre ramais da mesma empresa.
+
+**Observação:** Uma regra sempre deve iniciar com a ação `Centro de Custo` e terminar com a ação `Desligar Canal` 
+
+### Conclusão
+
+Após o ambiente ter sido todo configurado, é necessário efetuar testes de chamada para validar se está completando corretamente, com bina correta e se as chamadas são registradas e tem o áudio gravado e disponivel no relatório `Chamadas no Período`, assim temos a oportunidade de ajustar qualquer configuração ou corrigir falhas sistemicas que possam causar imprevistos no dia da ativação do cliente.

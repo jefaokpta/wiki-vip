@@ -87,3 +87,4 @@
     - [Implantação de clientes](/docs/suporte/implantacao-clientes.md)
     - [WhatsApp Business API](/docs/suporte/whatsapp-business-api.md)
     - [Grupos e pesquisa de satisfação](/docs/suporte/grupos-e-pesquisa-satisfacao.md)
+    - [Pesquisa reversa no Ubuntu](/docs/suporte/pesquisa-reversa-ubuntu.md)

@@ -12,6 +12,7 @@ Nova plataforma distribuida que concentra todas as frentes da empresa PABX, What
 ## Status do Projeto
 
 - [Roadmap](/docs/vip2/roadmap.md)
+- [Painel de Marcos](/docs/vip2/painel-de-marcos.md)
 
 ## Acessos em Construção
 
@@ -20,3 +21,4 @@ Nova plataforma distribuida que concentra todas as frentes da empresa PABX, What
 ## Responsável
 
 jefferson.reis@vipsolutions.com.br
+ad

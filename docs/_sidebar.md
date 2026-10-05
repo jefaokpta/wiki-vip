@@ -62,6 +62,8 @@
   - [Licenciados](/docs/sistemas-interno/licenciados.md)
   - Metabase
       - [Tráfego](/docs/sistemas-interno/metabase/trafego.md)
+  - RedMine 7.0.0
+      - [Documento de Instalação](/docs/sistemas-interno/redmine/redmine.md)
   - [Traffic](/docs/sistemas-interno/trafego.md)
 
 - VIP

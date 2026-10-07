@@ -91,3 +91,4 @@
     - [Grupos e pesquisa de satisfação](/docs/suporte/grupos-e-pesquisa-satisfacao.md)
     - [Pesquisa reversa no Ubuntu](/docs/suporte/pesquisa-reversa-ubuntu.md)
     - [Verificar status de serviços](/docs/suporte/verificar-status-servicos.md)
+    - [Configuração do código do servidor](/docs/suporte/codigo-servidor.md)

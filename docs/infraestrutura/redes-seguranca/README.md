@@ -8,6 +8,7 @@ Documentação transversal de infraestrutura de rede — aplica-se a todos os am
 - [Subnets](subnets.md)
 - [Firewall / Security Groups](firewall-security-groups.md)
 - [VPNs](vpns.md)
+- [Novo Servidor MGL](Novo%20Servidor%20MGL.md)
 
 ## Responsável
 

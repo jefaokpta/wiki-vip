@@ -12,6 +12,7 @@
     * [VipManager](/docs/infraestrutura/redes-seguranca/VipManager.md)
     * [Novo Servidor MGL](/docs/infraestrutura/redes-seguranca/Novo%20Servidor%20MGL.md)
     * [Backup gravações compartilhados](/docs/infraestrutura/redes-seguranca/BKP_Gravacoes_Compartilhados.md)
+    * [Backup de relcalls](/docs/infraestrutura/redes-seguranca/BKP_Relcalls.md)
     * [Rotas Jupiter](/docs/infraestrutura/redes-seguranca/Rotas_Jupiter.md)
     * [Fluxo de ligações Summit](/docs/infraestrutura/redes-seguranca/Summit_Fluxo_de_ligacoes.md)
     * [Fluxo de ligações (simplificado)](/docs/infraestrutura/redes-seguranca/Summit_Fluxo_de_ligacoes_simplificado.md)
